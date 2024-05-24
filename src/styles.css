@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'PP Monument Extended';
+    src: url('./fonts/PPMonumentExtended-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    font-family: 'PP Monument Extended', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 32px;
+    background: #F3EE03;
+}
+main {
+    background: #8E07F9;
+    border-radius: 25px;
+    padding: 32px;
+    text-align: center;
+    box-shadow: 10px 10px 0px 0px rgba(182,99,151,0.75);
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(182,99,151,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(182,99,151,0.75);
+    overflow: hidden;
+}
+header .logo {
+    border-radius: 50%;
+}
+h1 {
+    color: #FFF;
+    font-size: 72px;
+}
+h2 {
+    font-family: 'Courier New', monospace;
+    color: #FFF;
+    font-size: 14px;
+    margin: 32px auto;
+    width: 50%;
+}
+.cta {
+    z-index: 0;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    line-height: 32px;
+    background: #F1FE18;
+    border-radius: 16px;
+    padding: 16px 32px;
+    transition: transform 0.3s linear;
+}
+.cta:hover {
+    transform: translateY(-4px);
+}
+.cta > span:first-child {
+    border-right: 1px solid grey;
+    padding-right: 16px;
+    margin-right: 16px;
+}
+
+.cta > span:last-child {
+    display: flex;
+    align-items: center;
+}
+.sm > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.cards {
+    display: flex;
+    margin: 64px -32px -32px -32px;
+}
+
+.cards > div {
+    background: #961AF5;
+    border-right: 1px solid #EEE;
+    padding: 48px;
+    text-align: left;
+    color: #FFF;
+}
+.cards > div:last-child {
+    border-right: none;
+    flex-grow: 1;
+}
+.cards > div > h3 {
+    font-size: 16px;
+}
+.cards > div > span,
+.cards > div > a {
+    font-size: 48px;
+    color: #FFF;
+}
+.cards > div > sub {
+    display: block;
+}
+@media only screen and (max-width: 1300px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+    .cards > div:nth-child(3) {
+        flex-grow: 1;
+        border-right: none;
+    }
+    .cards > div:last-child {
+        border-top: 1px solid #EEE;
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    h2 {
+        width: 80%;
+    }
+    .cards > div:first-child,
+    .cards > div:nth-child(2) {
+        flex-grow: 1;
+    }
+    .cards > div:nth-child(2) {
+        border-right: none;
+    }
+
+    .cards > div:nth-child(3) {
+        border-top: 1px solid #EEE;
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    body {
+        padding: 16px;
+    }
+    main {
+        padding: 32px 12px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        width: 100%;
+        font-size: 12px;
+    }
+    .cards {
+        margin: 32px -16px -32px -16px;
+    }
+    .cards > div {
+        padding: 16px;
+    }
+    .cards > div > span,
+    .cards > div > a {
+        font-size: 36px;
+        color: #FFF;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .cards > div:first-child {
+        border-right: none;
+    }
+    .cards > div:nth-child(2) {
+        border-right: none;
+        border-top: 1px solid #EEE;
+        flex-basis: 100%;
+    }
+    .cards > div > span,
+    .cards > div > a {
+        font-size: 36px;
+        color: #FFF;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .cards > div > h3 {
+        font-size: 12px;
+    }
+    .cards > div > span,
+    .cards > div > a {
+        font-size: 20px;
+        color: #FFF;
+    }
+    .cards > div > sub {
+        font-size: 10px;
+    }
+}

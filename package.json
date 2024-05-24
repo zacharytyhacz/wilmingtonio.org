@@ -1,0 +1,22 @@
+{
+  "name": "wilmingtonio.org",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zacharytyhacz/wilmingtonio.org.git"
+  },
+  "author": "WilmingtonIO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zacharytyhacz/wilmingtonio.org/issues"
+  },
+  "homepage": "https://github.com/zacharytyhacz/wilmingtonio.org#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url https://wilmingtonio.org"
+    "build": "parcel build ./src/index.html --public-url https://wilmingtonio.org && cp src/robots.txt dist/robots.txt"
   },
   "repository": {
     "type": "git",

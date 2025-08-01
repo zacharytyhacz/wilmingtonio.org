@@ -265,43 +265,7 @@ h2 {
         width: 100%;
         font-size: 12px;
     }
-    .cards {
-        margin: 32px -16px -32px -16px;
-    }
-    .cards > div {
-        padding: 16px;
-    }
-    .cards > div > span,
-    .cards > div > a {
-        font-size: 36px;
-        color: #FFF;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .cards > div:first-child {
-        border-right: none;
-    }
-    .cards > div:nth-child(2) {
-        border-right: none;
-        border-top: 1px solid #EEE;
-        flex-basis: 100%;
-    }
-    .cards > div > span,
-    .cards > div > a {
-        font-size: 36px;
-        color: #FFF;
-    }
-}
-@media only screen and (max-width: 400px) {
-    .cards > div > h3 {
-        font-size: 12px;
-    }
-    .cards > div > span,
-    .cards > div > a {
-        font-size: 20px;
-        color: #FFF;
-    }
-    .cards > div > sub {
-        font-size: 10px;
-    }
+  .events > a {
+    width: calc(100% - 34px);
+  }
 }

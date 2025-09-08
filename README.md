@@ -1,16 +1,4 @@
 # Website for Wilmington Input Output
 ### [Check out the website here](https://wilmingtonio.org/)
 
-### Development
-```
-$ npm install
-$ npm run dev
-```
-
-### Production
-```
-$ npm install
-$ npm run build
-
-# Will generate dist/ for you to serve
-```
+It's just raw HTML and CSS. just open `index.html` in your browser to view it.

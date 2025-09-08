@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		wordRoll.style.setProperty(
 			"--animation-duration",
-			`${intervalPerItem * numItems}s`
+			`${(intervalPerItem * numItems).toFixed(2)}s`
 		);
 
 		let keyframesString = `@keyframes ${animationName} {\n`;

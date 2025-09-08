@@ -1,0 +1,38 @@
+[
+  {
+    "text": "Discord",
+    "url": "https://discord.gg/Wc3YD39Knp",
+    "title": "Join our Discord",
+    "iconName": "discord.svg"
+  },
+  {
+    "text": "Github",
+    "url": "https://github.com/zacharytyhacz/wilmingtonio.org",
+    "title": "View Source Code",
+    "iconName": "github.svg"
+  },
+  {
+    "text": "Meetup",
+    "url": "https://www.meetup.com/wilmington-input-output",
+    "title": "View Meetup Page",
+    "iconName": "meetup.svg"
+  },
+  {
+    "text": "LinkedIn",
+    "url": "https://www.linkedin.com/company/wilmingtonio",
+    "title": "View LinkedIn Page",
+    "iconName": "linkedin.svg"
+  },
+  {
+    "text": "Support",
+    "url": "https://buymeacoffee.com/wilmingtonio",
+    "title": "Support the Meetup Group",
+    "iconName": "support.svg"
+  },
+  {
+    "text": "Stats",
+    "url": "https://plausible.io/wilmingtonio.org",
+    "title": "View Public Stats",
+    "iconName": "stats.svg"
+  }
+]

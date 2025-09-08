@@ -1,0 +1,27 @@
+[
+	{
+		"link": "https://www.meetup.com/wilmington-input-output/events/310427442",
+		"title": "Workshop - HTML+CSS with Zac",
+		"datetimeStart": "2025-09-10T18:00:00",
+		"datetimeEnd": "2025-09-10T20:00:00",
+		"location": "CoWorx Coworking",
+		"address": "1608 Queen Street"
+	},
+	{
+		"link": "https://www.meetup.com/cfmakers/events/310888565",
+		"title": "ILM IT Security Group",
+		"datetimeStart": "2025-09-15T19:00:00",
+		"datetimeEnd": "2025-09-15T20:00:00",
+		"location": "Cape Fear Makers Guild",
+		"address": "273 N Front St"
+	},
+	{
+		"link": "https://www.meetup.com/wilmington-input-output/events/310428148",
+		"title": "Workshop - Hashing Algorithms with Tony",
+		"datetimeStart": "2025-10-08T18:00:00",
+		"datetimeEnd": "2025-10-08T20:00:00",
+		"location": "CoWorx Coworking",
+		"address": "1608 Queen Street",
+		"highlight": true
+	}
+]
